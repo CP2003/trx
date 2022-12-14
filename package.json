@@ -10,20 +10,20 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/BlackAmda/QueenAmdi.git"
+        "url": "git+https://github.com/CP2003/trx.git"
     },
     "keywords": [
         "whatsapp"
     ],
-    "author": "Black Amda",
-    "developer": "AN Tech",
+    "author": "CP2003",
+    "developer": "TRX~MD",
     "license": "GPL-3.0-or-later",
     "bugs": {
         "url": "https://github.com/BlackAmda/QueenAmdi/issues"
     },
     "homepage": "https://github.com/BlackAmda/QueenAmdi#readme",
     "dependencies": {
-        "@adiwajshing/baileys": "git+https://github.com/AN-Tech-Crew/BaileysForQueenAmdi.git#QueenAmdi_v4",
+        "@adiwajshing/baileys": "git+https://github.com/CP2003/Baileys.git#QueenAmdi_v4",
         "@adiwajshing/keyed-db": "^0.2.4",
         "@blackamda/song_video_dl": "^1.0.0",
         "@blackamda/telegram-image-url": "^1.0.0",
