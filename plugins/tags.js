@@ -21,7 +21,7 @@ AMDI({ cmd: "hutch", cmdHideInMenu: true, type: "primary" }, (async (amdiWA) => 
     return await sendText(`Hutch : @94788777111`, {mentionJIDS: ['94788777111@s.whatsapp.net'], quoted: true, reactEmoji: "✅"});
 }));
 
-AMDI({ cmd: "tagall", desc: Lang.tagallDESC, example: Lang.tagallEX, type: "primary", react: "🏷️" }, (async (amdiWA) => {
+AMDI({ cmd: "tag", desc: Lang.tagallDESC, example: Lang.tagallEX, type: "primary", react: "🏷️" }, (async (amdiWA) => {
     let { allGroupMembers, allGroupParticipants, isAllowedNumb, footerTXT, groupAdmins, input, isReply, isGroupAdmin, replied_text, sendText } = amdiWA.msgLayout;
 
     if (isGroupAdmin || isAllowedNumb || amdiWA.fromMe) {
@@ -47,7 +47,7 @@ AMDI({ cmd: "tagall", desc: Lang.tagallDESC, example: Lang.tagallEX, type: "prim
 }));
 
 
-AMDI({ cmd: "taggrp", desc: Lang.TAGGRPDESC, example: Lang.TAGGRPEX, type: "profile", react: "🏷️" }, (async (amdiWA) => {
+AMDI({ cmd: "tggp", desc: Lang.TAGGRPDESC, example: Lang.TAGGRPEX, type: "profile", react: "🏷️" }, (async (amdiWA) => {
     let { input, isReply, react, reply, replied_text, sendText } = amdiWA.msgLayout;
 
     if (!input && !isGroup(input)) return await reply(Lang.GIVEMEJID, "❓");
