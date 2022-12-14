@@ -25,7 +25,7 @@ const fs = require('fs');
 if (fs.existsSync('amdiSettings.env')) require('dotenv').config({ path: './assets/amdiSettings.env' });
 
 module.exports = {
-    VERSION: 'Queen Amdi 4.0.1v - Multi-Device',
+    VERSION: 'TRX_MD',
     isHEROKU: process.env.HEROKU === undefined ? '' : process.env.HEROKU,
     HEROKU_APP: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME
 }
